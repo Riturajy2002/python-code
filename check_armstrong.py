@@ -3,10 +3,10 @@ orig=n
 sum=0
 while(n>0):
     r=n%10
-    sum=sum+r*r*r
+    sum=sum+(r**3)
     n=n//10
 if(sum==orig):
-    print("The number{} is armstrong ".format(orig))
+    print(f"The number {orig} is armstrong.")
 else:
-    print("The number{} is not armstrong ".format(orig))
+    print(f"The number {orig} is not armstrong.")
 
